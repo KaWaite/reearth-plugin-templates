@@ -62,7 +62,8 @@ reearth.ui.show(`
     html, body { 
         margin: 0; 
         width: 300px; /* Change here for your specific plugin's height */
-        height: 300px /* Change here for your specific plugin's width */
+        height: 300px; /* Change here for your specific plugin's width */
+        background: white; /* Change here for your specific plugin's background */
     }
     .extendedh { width: 500px; }
     .extendedv { height: 400px; }
