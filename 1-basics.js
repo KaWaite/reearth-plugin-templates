@@ -171,6 +171,4 @@ reearth.ui.show(`
     </script>
 `, { width: 200, height: 100 });
 
-reearth.on("update", () => {
-    reearth.ui.postMessage({ message: "A secret message from Re:Earth."}, "*");
-});
+reearth.ui.postMessage({ message: "A secret message from Re:Earth."}, "*");
